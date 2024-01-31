@@ -1,0 +1,40 @@
+.form-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  margin-left: 40vw;
+}
+
+
+#main-form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(18, 175, 6);
+  padding: 30px;
+  border: 1px solid #df860a;
+  border-radius: 8px;
+  margin-top: 20px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 5px 5px 15px;
+  color: black;
+}
+
+.error-message {
+  color: red;
+  margin-top: 2vh;
+  margin-bottom: 1vh;
+}
+
+input {
+  padding: 15px;
+  margin-bottom: 15px;
+  font-family: 'Arial', sans-serif; 
+}
+
+input[type="submit"]{
+  background-color: rgb(77, 17, 216);
+  color: white;
+  cursor: pointer;
+}
